@@ -1,0 +1,19 @@
+[project]
+name = "djangotutorial"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aleksandr-86",email = "Aleksandr-Karpenko-86@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=6.0.6,<7.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "djangotutorial", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
