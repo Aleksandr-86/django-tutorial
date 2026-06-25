@@ -7,7 +7,6 @@
 poetry new django-tutorial
 ```
 ### Добавление пакета-зависимости  
-[Корневая папка проекта](/)
 ```sh
 poetry add django
 ```
@@ -33,4 +32,9 @@ poetry run python manage.py runserver
 [src/django_tutorial](src/django_tutorial)
 ```sh
 poetry run python manage.py startapp polls
+```
+## Дополнительно
+### Настройка форматирования
+```sh
+poetry add --group dev black
 ```
