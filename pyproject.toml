@@ -1,5 +1,5 @@
 [project]
-name = "djangotutorial"
+name = "django-tutorial"
 version = "0.1.0"
 description = ""
 authors = [
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "djangotutorial", from = "src"}]
+packages = [{include = "django_tutorial", from = "src"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
